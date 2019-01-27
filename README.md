@@ -34,7 +34,6 @@ Script should be updated with Required AWS Access/Secret Key.
        python kinesis_json_consumer_boto3.py kStreamName
 
 ```
-## Example
 
 ## Contact
 nrsh13@gmail.com
