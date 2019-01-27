@@ -158,8 +158,8 @@ if __name__ == '__main__':
         client = boto3.client(
                 service,
                 region_name='us-east-1',
-                aws_access_key_id='AKIAINOQK2654GKFGUQA',
-                aws_secret_access_key='vQ1xrKm+1uUQXGa3MI3ETUYpa7NfdbKvZCyJIIOe',
+                aws_access_key_id='yourAccessKeyID',
+                aws_secret_access_key='yourSecretAccessKey',
                 )
 
         print "\nChecking Stream Existence"
