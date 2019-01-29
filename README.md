@@ -1,9 +1,16 @@
-# Kinesis Stream & Firehose Delivery Stream JSON Producer and Consumer
+# Kinesis Stream, Firehose Delivery Stream and Kinesis Stream Processor using LAMBDA
 
 ## Purpose
-Kinesis Stream: To Create a Kinesis Stream (if Doesn't exist) and Produce random JSON messages.
-
-Firehose: To Produce random JSON messages to an Existing Firehose Deliver Stream.
+#### kinesis_json_producer_boto3.py:
+    Kinesis Stream: To Create a Kinesis Stream (if Doesn't exist) and Produce random JSON messages.
+    Firehose: To Produce random JSON messages to an Existing Firehose Deliver Stream.
+#### kinesis_json_consumer_boto3.py:
+    To Consume messages from a Kinesis Stream/Firehose Delivery Stream
+#### kinesisStream_Processor_Lambda.py:
+    To Consume messages from a Kinesis Stream.
+    Filter our messages having Valid Email Address
+    Check and Create(if required) DynamoDB Table 'users'
+    Load the 'users' Table with valid records (having Valid Email Address).
 
 ## Prerequisites
 Packages: 
