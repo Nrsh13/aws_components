@@ -1,4 +1,4 @@
-# Kinesis Stream, Firehose Delivery Stream and Kinesis Stream Processor using LAMBDA
+# Kinesis Stream, Firehose Delivery Stream and Kinesis Stream Processor using Lambda
 
 ## Purpose
 #### kinesis_json_producer_boto3.py:
@@ -8,7 +8,7 @@
     To Consume messages from a Kinesis Stream/Firehose Delivery Stream
 #### kinesisStream_Processor_Lambda.py:
     To Consume messages from a Kinesis Stream.
-    Filter our messages having Valid Email Address
+    Filter out messages having Valid Email Address
     Check and Create(if required) DynamoDB Table 'users'
     Load the 'users' Table with valid records (having Valid Email Address).
 
