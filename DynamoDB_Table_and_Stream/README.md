@@ -14,7 +14,7 @@
     To Create required DynamoDB Table (if Doesn't exists) with 
         - email and Ipaddress as Primary and Sort key respectively
         - NEW_IMAGE as StreamViewType
-     Insert JSON messages every 2 second
+     Insert records every 2 second
 #### DynamoDBStream_Processor_Lambda.py: Replicating a DynamoDB Table in another Region
     To Consume messages from a DynamoDB Stream.
     Filter out messages having Valid Email Address
